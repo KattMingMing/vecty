@@ -12,9 +12,9 @@ Beware, this is a fork of [gopherjs/vecty](https://github.com/gopherjs/vecty) wh
 - [x] Simplify the component architecture from a user (not implementor's) perspective.
 - [x] Provide better code documentation.
 - [x] Provide `Mount` and `Unmount` component events.
+- [x] Add a simple clock example.
 - [ ] Documented short-circuit of child reconcillation / ability to "skip component rerendering".
 - [ ] Add a tutorial / walkthrough.
-- [x] Add a simple clock example.
 - [ ] Most other issues currently open at https://github.com/gopherjs/vecty/issues
 
 Eventually, I hope to upstream most of these changes with several long-winded PRs.
