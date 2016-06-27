@@ -13,9 +13,15 @@ Beware, this is a fork of [gopherjs/vecty](https://github.com/gopherjs/vecty) wh
 - [x] Provide better code documentation.
 - [x] Provide `Mount` and `Unmount` component events.
 - [x] Add a simple clock example.
-- [ ] Documented short-circuit of child reconcillation / ability to "skip component rerendering".
+- [x] Fix [document how to skip/short-circuit reconciliation](https://github.com/gopherjs/vecty/issues/27)
+- [ ] Fix [Cursor moves when textbox value is updated](https://github.com/gopherjs/vecty/issues/50)
+- [ ] Fix [Better list element reuse / "keys"](https://github.com/gopherjs/vecty/issues/25)
+- [ ] Fix [Unsafe HTML injection](https://github.com/gopherjs/vecty/issues/20)
+- [ ] Fix [CSS styling](https://github.com/gopherjs/vecty/issues/22)
+- [ ] maybe conclude? [Server-side rendering](https://github.com/gopherjs/vecty/issues/23)
+- [ ] maybe fix? [determine how best to perform testing](https://github.com/gopherjs/vecty/issues/29)
 - [ ] Add a tutorial / walkthrough.
-- [ ] Most other issues currently open at https://github.com/gopherjs/vecty/issues
+- [ ] Extensive documentation.
 
 Eventually, I hope to upstream most of these changes with several long-winded PRs.
 
