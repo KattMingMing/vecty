@@ -4,6 +4,19 @@
 
 Vecty is a [React](https://facebook.github.io/react/)-like library for [GopherJS](https://github.com/gopherjs/gopherjs) so that you can do frontend development in Go instead of writing JavaScript/HTML/CSS.
 
+⚠ Experimental!
+=================
+
+Beware, this is a fork of [gopherjs/vecty](https://github.com/gopherjs/vecty) while I figure out how to improve a few key elements:
+
+- Simplicity of the component architecture (from a user, not implementor's perspective).
+- Better documentation.
+- `Mount` and `Unmount` component events.
+- Documented short-circuit of child reconcillation / ability to "skip component rerendering".
+- Most other issues currently open at https://github.com/gopherjs/vecty/issues
+
+Eventually, I hope to upstream most of these changes with several long-winded PRs.
+
 Features
 ========
 
